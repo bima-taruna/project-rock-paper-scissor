@@ -10,7 +10,7 @@ function getComputerChoice() {
     }
 }
 
-let playerChoice = prompt("Please enter the command: ");
+let playerChoice = "rock"
 
 function playRound(playerChoice, compChoice) {
     if (playerChoice == compChoice) {
@@ -26,4 +26,4 @@ function playRound(playerChoice, compChoice) {
     }
 }
 
-console.log(playRound(playerChoice, getComputerChoice()))
+// console.log(playRound(playerChoice, getComputerChoice()))
